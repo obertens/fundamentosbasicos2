@@ -2,7 +2,7 @@
 function mayormenor(arr) {
     var menor = arr[0];
     var mayor = arr[0];
-    for (i = 1; i <arr.length ; i++){
+    for (var i = 1; i <arr.length ; i++){
         if (menor > arr[i]) {
             menor = arr[i];
         
